@@ -1,0 +1,46 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}	
+body{
+    background-color: rgba(212, 165, 208, 0.664);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.wrap-card h1{
+    color: rgb(201, 132, 28);
+}
+.wrap-card span{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 10px;
+}
+.wrap-card span a{
+    text-align: center;
+    line-height: 30px;
+    text-decoration: none;
+    display: block;
+    width: 100px;
+    height: 30px;
+    background-color: hsl(219, 83%, 9%);
+    color: hwb(96 21% 5%);
+    border-radius: 10px;
+}
+table thead{
+    background-color: hwb(7 5% 17%);
+    height: 30px;
+    color: hsl(177, 89%, 45%);
+}
+table thead tr th{
+    padding: 15px;
+}
+table tbody tr:nth-child(even){
+    background-color: hsla(81, 87%, 49%, 0.034);
+}
+table tbody tr td{
+    padding: 10px 10px;
+}
